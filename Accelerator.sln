@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Litium.Accelerator", "Src\Litium.Accelerator\Litium.Accelerator.csproj", "{14A91CEE-4AE0-408A-89C7-17FA0F483E89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Litium.Accelerator.FieldTypes", "Src\Litium.Accelerator.FieldTypes\Litium.Accelerator.FieldTypes.csproj", "{16DF88D4-AAD7-4CF9-97FF-30D536D05F81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Litium.Accelerator.Mvc", "Src\Litium.Accelerator.Mvc\Litium.Accelerator.Mvc.csproj", "{75F53124-2638-450C-8E6E-FD0E99D881C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Litium.Accelerator.Elasticsearch", "Src\Litium.Accelerator.Elasticsearch\Litium.Accelerator.Elasticsearch.csproj", "{B4739A1D-E2DF-4474-9445-48929968A9AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Litium.Accelerator.Administration.Extensions", "Src\Litium.Accelerator.Administration.Extensions\Litium.Accelerator.Administration.Extensions.csproj", "{3A75CBD1-9F03-4935-AFBC-9F392F2135A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F4A895C4-FE5E-45AF-B18B-B824DBFE36A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Litium.Accelerator.Test", "Test\Litium.Accelerator.Test\Litium.Accelerator.Test.csproj", "{6DFD43AC-9851-45A8-A11B-38295994EDB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14A91CEE-4AE0-408A-89C7-17FA0F483E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A91CEE-4AE0-408A-89C7-17FA0F483E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A91CEE-4AE0-408A-89C7-17FA0F483E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A91CEE-4AE0-408A-89C7-17FA0F483E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DF88D4-AAD7-4CF9-97FF-30D536D05F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DF88D4-AAD7-4CF9-97FF-30D536D05F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DF88D4-AAD7-4CF9-97FF-30D536D05F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DF88D4-AAD7-4CF9-97FF-30D536D05F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F53124-2638-450C-8E6E-FD0E99D881C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F53124-2638-450C-8E6E-FD0E99D881C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F53124-2638-450C-8E6E-FD0E99D881C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F53124-2638-450C-8E6E-FD0E99D881C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4739A1D-E2DF-4474-9445-48929968A9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4739A1D-E2DF-4474-9445-48929968A9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4739A1D-E2DF-4474-9445-48929968A9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4739A1D-E2DF-4474-9445-48929968A9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A75CBD1-9F03-4935-AFBC-9F392F2135A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A75CBD1-9F03-4935-AFBC-9F392F2135A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A75CBD1-9F03-4935-AFBC-9F392F2135A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A75CBD1-9F03-4935-AFBC-9F392F2135A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFD43AC-9851-45A8-A11B-38295994EDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFD43AC-9851-45A8-A11B-38295994EDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFD43AC-9851-45A8-A11B-38295994EDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFD43AC-9851-45A8-A11B-38295994EDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFB8E599-2219-412D-8561-CF94E219F133}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DFD43AC-9851-45A8-A11B-38295994EDB1} = {F4A895C4-FE5E-45AF-B18B-B824DBFE36A5}
+	EndGlobalSection
+EndGlobal

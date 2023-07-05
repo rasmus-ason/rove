@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <LitiumLocalization Include="Resources\Common*.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Litium.Accelerator.FieldTypes\Litium.Accelerator.FieldTypes.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
+    <PackageReference Include="Litium.Web.WebApi.Abstractions" Version="8.11.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

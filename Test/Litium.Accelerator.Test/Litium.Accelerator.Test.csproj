@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Litium.Accelerator</RootNamespace>
+    <BuildDocumentation>false</BuildDocumentation>
+    <IsPackable>false</IsPackable>
+    <OutputType>exe</OutputType>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LitiumApplicationStartup>Litium.Accelerator.Mvc.Startup</LitiumApplicationStartup>
+    <LitiumApplicationConfigure>Litium.Accelerator.TestConfiguration</LitiumApplicationConfigure>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Litium.Xunit.Bootstrapper" Version="8.11.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Src\Litium.Accelerator.Mvc\Litium.Accelerator.Mvc.csproj" />
+  </ItemGroup>
+</Project>
